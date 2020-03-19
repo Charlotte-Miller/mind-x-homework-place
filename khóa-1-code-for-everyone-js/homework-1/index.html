@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <h1>Bài tập buổi 1</h1>
+
+      <p>
+        1. How to check a variable's value?
+      </p>
+      <p>
+        To check a variable's value, we could use
+        <strong>typeof</strong> operator. <br />For examples:<br />console.log(typeof
+        22);<br />
+        //Expect output: 'number'.
+      </p>
+
+      <p>
+        2. In what cases, you will get <strong>SyntaxError </strong> from the
+        compiler telling you that some of your variables have
+        <strong>invalid names </strong>? Can you give
+        <strong>3</strong> different examples of <strong>invalid names</strong>?
+      </p>
+      <p>
+          There are some rules when constructing name for variable:
+          <ul>
+              <li>Names can contain letters, digits, underscores, and dollar signs.
+              </li>
+              <li>Names must begin with a letter, $, or _.
+            </li>
+              <li>Names are case sensitive (y and Y are different variables)</li>
+              <li>Reserved words (like JavaScript keywords) cannot be used as names</li>
+          </ul>
+          Any cases constructing variable name breaking these rules, the compiler will give you a <strong>SyntaxError</strong> of <strong>invalid name</strong>.<br><br>
+          For example:
+          <ul>
+              <li>let name*;</li>
+              <li>const let = 6;</li>
+              <li>const 3pigs = 3;</li>
+          </ul>
+      </p>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>
