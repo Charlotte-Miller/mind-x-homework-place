@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <p class="question">1. What is Boolean? Write down 3 different expression that results a Boolean type.</p>
+    <p>
+        Boolean is a logical data type that can have only the values true or false.
+        <ul>
+            For example:
+            <li>console.log(5 === 5); //Print: True;</li>
+            <li>console.log(5 >= 6); //Print: False;</li>
+            <li>console.log('a' === 'b'); //Print: False;</li>
+        </ul>
+    </p>
+    <p class="question">2. What is a flow chart? Draw flow chart for the following code snippet:<br><br>
+        if name == “Huy be":<br>
+        print(“Hand some")<br>
+    elif name == “Huy big":<br>
+        even_more_handsome = True<br>
+    else:<br>
+        webbrowser.open(“https://www.youtube.com/watch?v=04854XqcfCY”)<br>
+    </p>
+    <p>
+        A flowchart is a type of diagram that represents a workflow, process or an algorithm, a step-by-step approach to solving a task.<br>
+        For example:
+  
+        <img src="img.png" alt="if statement flowchart">
+    </p>
+    
+    <p class="question">3. What is nested conditionals? Write a piece of code that uses nested conditionals
+    </p>
+    <p>
+        Nested conditional mean that there is another conditional statement inside if/else statement.<br>
+       <p> For example:<br>
+        if (x < y){<br>
+    console.log('x is less than y');<br>
+        } else {<br>
+    if (x > y) {<br>
+        console.log('x is greater than y');<br>
+    } else {<br>
+        console.log('x and y must be equal');<br>
+    }<br>
+}<br></p>
+<p>In case finding nested conditional annoying, you can chain them instead.</p> 
+    </p>
+    <div>
+        <label for="height">Enter your height (cm):</label>
+        <input type="number" id="height"><br>
+
+        <label for="weight">Enter your weight (kg):</label>
+        <input type="number" id="weight">
+     <br> <button id="bmi" type="submit" >Generate BMI <button>
+    </div>
+    <div>
+        <label for="number">Give me your number:</label>
+        <input type="number" id="number" min="1" max="100">
+        <br><button id="factorial">Calculate factorial of yours</button>
+    </div>
+    <script src="main.js"> 
+    </script>
+</body>
+</html>
