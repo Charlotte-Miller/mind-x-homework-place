@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="task1">
+        <label for="factorial">Generate your factorial:</label>
+        <input id="factorial" type="number" value="1">
+        <p class="result" id="cal-factorial"></p> 
+    </div>
+    <div class="task2">
+        <label for="name">Name:</label>
+        <input id="name" type="text" placeholder="What is your name?" maxlength="20"><br>
+        <label for="age">Age:</label>
+        <input id="age" type="number" min="0" placeholder="How old are you?"><br>
+        <button id="login">Log in</button>
+        <button id="logout" disabled>Log out</button>
+    </div><br>
+    <div class="task3">
+        <label for="account">Account:</label>
+        <input id="account" type="text" placeholder="codeforfun" maxlength="30"><br>
+        <label for="password">Password:</label>
+        <input id="password" type="password" min="6" placeholder="github2020"><br>
+        <button id="loginGame">Log in</button>
+    </div><br>
+    <div class="task4">
+        <label for="date">When is your birthday:</label>
+        <input id="date" type="date">
+        <p id="birth" class="result"></p>
+    </div>
+    <div class="task5">
+        <p>Quadratic equation solving</p>
+        <input id="a" type="number" placeholder="a ≠ 0">
+        <input id="b" type="number" placeholder="b" value="0">
+        <input id="c" type="number" placeholder="c" value="0">
+        <br>
+        <button id="calculate">Calculate</button>
+        <p class="result" id="solution"></p>
+        <p class="result" id="x1"></p>
+        <p class="result" id="x2"></p>
+    </div>
+    <div class="task6">
+        <label for="text">Write something</label>
+        <input id="text" type="text" placeholder="abc123@#$">
+        <br>
+        <button id="reverse">Reverse</button>
+        <p class="result" id="string"></p>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
