@@ -1,20 +1,20 @@
-// Swap variable
+// 1. Swap variable
 function swapVar(a, b) {
   [a, b] = [b, a];
   console.log(a, b);
 }
 
-// Split string to Arr
+// 2. Split string to Arr
 function strToArr(str, step) {
   console.log(str.split(step));
 }
 
-// Print out spread array
+// 3. Print out spread array
 function printArr(arr) {
   console.log(...arr);
 }
 
-// Clothing Shop App
+// 4. Clothing Shop App
 
 const shopCart = [];
 
@@ -61,7 +61,7 @@ function shopApp(event) {
   }
 }
 
-// Calculate sum, min of a number string
+// 5 + 6. Calculate sum, min of a number string
 function sumAndMin() {
   const numberArr = prompt("Enter a list of number, seperate by comma:")
     .split(",")
@@ -73,7 +73,7 @@ function sumAndMin() {
   console.log(`sum = ${sum}\nmin = ${min}`);
 }
 
-// Find number in arr
+// 7. Find number in arr
 function findNumber(arr, number) {
   if (arr.indexOf(number) >= 0) {
     console.log(
@@ -84,7 +84,7 @@ function findNumber(arr, number) {
   }
 }
 
-// Sheep app, afterShave, growByMonth, printArr(above), findMax
+// 8. Sheep app, afterShave, growByMonth, printArr(above), findMax
 function findMax(arr) {
   return Math.max(...arr);
 }
@@ -131,7 +131,7 @@ function sheepApp(sizeArr, month) {
   }
 }
 
-// Produce name tag
+// 10. Produce name tag
 function nameTag() {
   let nameArr = prompt("Enter a list of name, seperate by comma:").split(",");
   console.log(
@@ -141,7 +141,7 @@ function nameTag() {
   );
 }
 
-// Filter the odd
+// 11. Filter the odd
 function oddFilter() {
   let inputArr = prompt("Enter a list of number, seperate by comma:").split(
     ","
